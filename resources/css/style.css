@@ -95,8 +95,13 @@ header{
   padding-top: 5%;
   padding-bottom: 20%;
 }
+<<<<<<< HEAD
 /*just work*/
 @media (min-width: 768px) {
+=======
+
+@media (min-width: 460px) {
+>>>>>>> e0d7357ee38b2f98b1075bb3c7b146929c717a63
   header{
     padding-top: 1%;
   }
