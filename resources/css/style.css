@@ -15,6 +15,7 @@ body{
 header{
   margin-left: 4%;
   margin-right: 4%;
+  padding-top: 2.5%;
 }
 
 .menu{
@@ -83,5 +84,8 @@ h3{
   padding-top: 25%;
 }
 .splash-two p{
-
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  padding-top: 5%;
+  padding-bottom: 20%;
 }
