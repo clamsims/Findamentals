@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background-color: #FFFDF5;
+  width: 100vw;
+  margin: 0, auto;
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
+
+.logopurp{
+  color: #B482FF;
+}
+
+.fa-bars{
+  color: #B482ff;
+}
+.fa.fa-bars{
+  font-size: 1.5rem;
+}
+
+
+.L-emoji{
+  float: left;
+}
+.R-emoji{
+  float:right;
+}
+
+h3{
+  padding: 3%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 7.5%;
+}
+
+.splash-one{
+  text-align: center;
+  padding-top: 25%;
+}
+
+.btn{
+  background-color: #B482ff;
+  color: #FFF;
+  width: 160px;
+  border-radius: 7.5px;
+  text-align: center;
+  height: 40px;
+  padding-top: 5px;
+  margin-top: 15%;
+}
+.btn:hover{
+  cursor: pointer;
+  box-shadow:inset 0 -0.7em 0 -0.4em rgba(0,0,0,0.17);
+  color:#FFFDF5;
+}
+
+.splash-two{
+  text-align: center;
+  width: 60%;
+  padding-top: 25%;
+}
+.splash-two p{
+
+}
