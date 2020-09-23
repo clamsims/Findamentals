@@ -96,7 +96,7 @@ header{
   padding-bottom: 20%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   header{
     padding-top: 1%;
   }
@@ -134,5 +134,8 @@ header{
   a{
     text-decoration: none;
     color: #B482FF;
+  }
+  a:hover{
+    font-weight: bold;
   }
 }
