@@ -209,16 +209,23 @@ ol li::before{
   header{
     padding-top: 1%;
   }
+  .splash-one h3{
+    font-size: 2rem;
+  }
+  .splash-two h3{
+    font-size: 2rem;
+  }
   .desktop-link{
     display: inline-block;
     visibility: visible;
+    font-size: 1.25rem;
   }
   .container{
     padding-top: 5%;
     text-align: center;
   }
   .splash-one{
-    padding-top: 5%;
+    padding-top: 2em;
     width: 60%;
     text-align: center;
   }
@@ -232,6 +239,7 @@ ol li::before{
   .splash-two p{
     padding-top: 2.5%;
     padding-bottom: 10%;
+    font-size: 1.25rem;
   }
   li i{
     visibility: hidden;
