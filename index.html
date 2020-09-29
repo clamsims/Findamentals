@@ -12,9 +12,15 @@
   <body>
     <header>
       <nav class="navmenu">
+        <h1><span class='logopurp'>FIN</span>DAMENTALS</h1>
         <ul class="menu">
-          <li><h1><span class='logopurp'>FIN</span>DAMENTALS</h1></li>
-          <li class="menubuton"><a href="javascript:void(0);" onclick="showMenu()"><i class="fa fa-bars" id="index-bar"></i></a></li>
+          <div id="linkList" class="menu-links">
+          <li class="item"><a class="menuItem" href="findamentals.html" id="guide">Guide</a></li>
+          <li class="item"><a class="menuItem" href="resources.html" id="resources" >Resources</a></li>
+          <li class="item"><a class="menuItem" href="about.html" id="about">About</a></li>
+          <li class="item"><a class="menuItem" href="beermoney.html" id="beermoney">Beer Money</a></li>
+          </div>
+          <a href="javascript:void(0);" onclick="showMenu()"><i class="fa fa-bars" id="index-bar"></i></a>
         </ul>
       </nav>
     </header>
@@ -62,5 +68,6 @@
         <p class="C-emoji">🤲</p>
       </div>
     </div>
+    <script src="./resources/js/menu.js"></script>
   </body>
 </html>
