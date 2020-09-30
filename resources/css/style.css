@@ -32,6 +32,11 @@ li a{
 }
 a{
   text-decoration: none;
+  color: #B482FF;
+}
+a:hover{
+  font-weight: bold;
+  text-decoration: none;
 }
 a h1{
   color: #404040;
@@ -68,6 +73,12 @@ nav{
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
+
+.menu-links a:active{
+  background-color: #B482FF;
+  color: #FFFDF5;
+}
+
 .menu-links a:hover{
   color: #B482FF;
 }
@@ -114,7 +125,13 @@ nav{
   text-align: center;
   width: 100vw;
 }
-
+.main-content{
+  text-align: center;
+  width: 80vw;
+}
+.main-content h1{
+    padding: 5rem 0 5rem 0;
+}
 .splash-one{
   text-align: center;
   padding-top: 25%;
@@ -290,14 +307,7 @@ ol li::before{
   li a{
     color: #404040;
   }
-  a{
-    text-decoration: none;
-    color: #B482FF;
-  }
-  a:hover{
-    font-weight: bold;
-    text-decoration: none;
-  }
+
   .findamentals{
     font-size: 1.25rem;
   }
@@ -316,5 +326,18 @@ ol li::before{
   .btn h3{
     font-size: 1.35rem;
   }
-
+  .main-content p{
+    font-size: 1.35rem;
+  }
+  .desknav{
+    list-style: none;
+    display: inline;
+    font-size: 1.2rem;
+    padding-left:1rem;
+    font-weight: bold;
+    color:#404040;
+  }
+  .desknav a:hover{
+    color: #B482FF;
+  }
 }
